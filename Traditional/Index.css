@@ -1,0 +1,93 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Whole container */
+.container{
+    width: 80%;
+    height: auto;
+    border: 1px solid #e8eeee;
+    margin:20px auto;
+    background-color: #fcfcfc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 5px 8px 5px #d4d4d4 ;
+}
+
+/* text decoration for name and contact details */
+.name{
+    text-align: center;
+}
+.name>p{
+    margin: 0px;
+    padding: 0px 0px 20px 0px;
+}
+
+/* education details customization */
+.table-contents{
+    margin: 1em 0;
+}
+
+table{
+    width: 100%;
+}
+
+
+/* acknowledgment statement */
+.acknowledge{
+    padding-top: 5px;
+    text-align: center;
+    color: #2eaaa1;
+}
+
+
+/* customization of buttons */
+.Buttons{
+    display: flex;
+    justify-content: center;
+
+}
+button{
+    color: #fff;
+    font-size: 1.25em;
+    background-color: #2eaaa1;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #2eaaa1;
+    margin: 0px 10px;
+    box-shadow: 2px 3px 3px #e8eeee;
+
+}
+button:hover{
+    background-color: #f4f4f4;
+    color: #2eaaa1 ;
+    box-shadow: 2px 3px 3px #30afa6a1;
+}
+
+
+/* customization of discaimer at end */
+.disclaimer{
+    text-align: center;
+    color: rgb(22, 79, 34);
+}
+
+
+/* Changes that effect globally in the page */
+h1,h2{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1,h2,a {
+    color: #2eaaa1;
+}
+
+.line{ /* (line under each heading) */
+    height: 1.5px;
+    background-color: #2eaaa1;
+    width: 95%;
+    margin: 0px;
+    padding: 0px;
+}
